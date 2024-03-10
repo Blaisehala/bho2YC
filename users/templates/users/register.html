@@ -2,9 +2,14 @@
 
 {% block content %}
 
-       
+     <div class="content-section">
+        <form action="" method="POST ">
+        {% crsf_token %}
 
-<h1> About Page </h1>
+
+        </form>
+
+     </div>  
     
 
 {% endblock %}
